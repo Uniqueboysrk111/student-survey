@@ -1,2 +1,2 @@
 # student-survey
-this is just a survey 
+this is just a survey.
