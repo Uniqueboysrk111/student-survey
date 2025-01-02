@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+height: 100vh;
+margin: auto;
+}
+
+.box{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+border-radius: 20px;
+height: 300px;
+color: rgb(0, 0, 0);
+
+}
+
+
+table{
+    border: 1px solid rgb(255, 255, 255);
+    width: 1000px;
+    
+}
+th td{
+    width: 150px;
+
+}
+
+td{
+    text-align: center;
+}
+
+tr{
+    height: 45px;
+}
+
+.data-line{
+    background-color: rgb(14, 164, 134);
+    color: white;
+}
+.res-line{
+    background-color: rgb(196, 192, 192);
+    
+}
+
+
+

@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+
+
+
+    .container {
+        padding: 5px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        height: 100vh;
+        background: linear-gradient(rgb(71, 15, 255), rgb(5, 71, 99));
+        border-radius: 1px;
+        box-sizing: border-box;
+        box-shadow: none;
+    }
+
+
+    .navbar {
+        width: 100vw;
+        overflow-x: hidden;
+        font-size: larger;
+        color: white;
+        font-family: sans-serif;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+
+
+    }
+
+    .contents {
+
+        width: 100%;
+        border-left: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+    .check {
+        display: none;
+
+
+    }
+
+    .dynamic {
+        visibility: visible;
+        padding: 10px;
+    }
+
+}
+
+body {
+    overflow: hidden
+}
